@@ -1,0 +1,182 @@
+,bin,field_name,first_author,author_corresponding,counts,work_citedby
+0,0,Agricultural and Biological Sciences,10,9,35,2382
+1,0,Arts and Humanities,24,21,26,514
+2,0,"Biochemistry, Genetics and Molecular Biology",234,148,899,70701
+3,0,"Business, Management and Accounting",52,31,88,8882
+4,0,Chemical Engineering,1,0,5,309
+5,0,Chemistry,25,11,114,7337
+6,0,Computer Science,27,13,75,1455
+7,0,Decision Sciences,17,9,26,1184
+8,0,Dentistry,2,1,4,28
+9,0,Earth and Planetary Sciences,0,1,7,362
+10,0,"Economics, Econometrics and Finance",78,43,165,8516
+11,0,Energy,1,0,4,88
+12,0,Engineering,30,16,78,2742
+13,0,Environmental Science,35,31,83,8853
+14,0,Health Professions,66,36,154,12416
+15,0,Immunology and Microbiology,72,47,357,39527
+16,0,Materials Science,13,14,111,11400
+17,0,Mathematics,24,13,52,1559
+18,0,Medicine,668,331,2387,182560
+19,0,Neuroscience,123,66,394,38084
+20,0,Nursing,15,10,54,3966
+21,0,"Pharmacology, Toxicology and Pharmaceutics",10,4,26,553
+22,0,Physics and Astronomy,29,14,83,5032
+23,0,Psychology,100,46,231,36222
+24,0,Social Sciences,151,109,227,9859
+25,0,Veterinary,3,1,3,28
+26,1,Agricultural and Biological Sciences,21,15,54,2720
+27,1,Arts and Humanities,64,59,73,1805
+28,1,"Biochemistry, Genetics and Molecular Biology",343,203,1596,131573
+29,1,"Business, Management and Accounting",70,42,130,7071
+30,1,Chemical Engineering,2,0,4,136
+31,1,Chemistry,29,18,153,5229
+32,1,Computer Science,44,19,134,4133
+33,1,Decision Sciences,34,20,57,1874
+34,1,Dentistry,2,1,7,772
+35,1,Earth and Planetary Sciences,6,4,18,366
+36,1,"Economics, Econometrics and Finance",126,72,216,8775
+37,1,Energy,2,1,8,636
+38,1,Engineering,37,23,105,4328
+39,1,Environmental Science,41,26,104,12832
+40,1,Health Professions,90,46,241,11874
+41,1,Immunology and Microbiology,98,65,528,45380
+42,1,Materials Science,32,18,180,28661
+43,1,Mathematics,54,30,119,4172
+44,1,Medicine,1220,618,4464,273340
+45,1,Neuroscience,155,88,546,61964
+46,1,Nursing,18,11,95,10798
+47,1,"Pharmacology, Toxicology and Pharmaceutics",5,2,29,555
+48,1,Physics and Astronomy,33,9,124,3502
+49,1,Psychology,116,68,316,38078
+50,1,Social Sciences,273,182,437,21455
+51,2,Agricultural and Biological Sciences,25,11,85,5362
+52,2,Arts and Humanities,103,79,125,886
+53,2,"Biochemistry, Genetics and Molecular Biology",479,316,2504,157492
+54,2,"Business, Management and Accounting",71,45,137,9217
+55,2,Chemical Engineering,0,0,1,49
+56,2,Chemistry,40,23,193,10110
+57,2,Computer Science,51,21,171,4775
+58,2,Decision Sciences,20,11,50,757
+59,2,Dentistry,1,2,7,170
+60,2,Earth and Planetary Sciences,8,3,17,500
+61,2,"Economics, Econometrics and Finance",95,46,197,7624
+62,2,Energy,5,0,19,6919
+63,2,Engineering,37,16,134,3397
+64,2,Environmental Science,48,20,182,11352
+65,2,Health Professions,120,45,339,13060
+66,2,Immunology and Microbiology,153,119,848,74990
+67,2,Materials Science,35,18,236,29187
+68,2,Mathematics,42,27,118,3407
+69,2,Medicine,1685,939,7312,426218
+70,2,Neuroscience,224,135,833,91793
+71,2,Nursing,31,23,165,8395
+72,2,"Pharmacology, Toxicology and Pharmaceutics",10,16,67,6831
+73,2,Physics and Astronomy,48,22,166,6378
+74,2,Psychology,200,96,567,55021
+75,2,Social Sciences,322,227,537,23232
+76,2,Veterinary,4,1,14,389
+77,3,Agricultural and Biological Sciences,40,22,191,10187
+78,3,Arts and Humanities,86,77,104,704
+79,3,"Biochemistry, Genetics and Molecular Biology",583,425,3719,202978
+80,3,"Business, Management and Accounting",69,38,153,7788
+81,3,Chemical Engineering,2,1,7,289
+82,3,Chemistry,44,23,238,9673
+83,3,Computer Science,27,16,195,4909
+84,3,Decision Sciences,23,18,64,814
+85,3,Dentistry,2,1,23,631
+86,3,Earth and Planetary Sciences,8,4,33,1005
+87,3,"Economics, Econometrics and Finance",117,63,277,7184
+88,3,Energy,2,3,29,1477
+89,3,Engineering,47,25,258,5140
+90,3,Environmental Science,65,46,294,14485
+91,3,Health Professions,168,74,589,16039
+92,3,Immunology and Microbiology,178,144,1159,54474
+93,3,Materials Science,21,22,257,18493
+94,3,Mathematics,50,22,173,3177
+95,3,Medicine,2374,1381,14061,577639
+96,3,Neuroscience,272,163,1328,93932
+97,3,Nursing,56,35,260,22452
+98,3,"Pharmacology, Toxicology and Pharmaceutics",15,7,68,2412
+99,3,Physics and Astronomy,65,24,281,6347
+100,3,Psychology,200,86,733,45073
+101,3,Social Sciences,346,260,680,15627
+102,3,Veterinary,4,2,13,131
+103,4,Agricultural and Biological Sciences,49,53,244,12441
+104,4,Arts and Humanities,116,107,137,1128
+105,4,"Biochemistry, Genetics and Molecular Biology",689,646,4597,226105
+106,4,"Business, Management and Accounting",79,58,172,2404
+107,4,Chemical Engineering,0,0,5,94
+108,4,Chemistry,40,28,211,9707
+109,4,Computer Science,107,38,336,5221
+110,4,Decision Sciences,39,24,91,1556
+111,4,Dentistry,2,1,18,720
+112,4,Earth and Planetary Sciences,13,7,44,1867
+113,4,"Economics, Econometrics and Finance",126,85,381,9622
+114,4,Energy,3,2,24,1058
+115,4,Engineering,146,60,535,12647
+116,4,Environmental Science,84,76,450,32686
+117,4,Health Professions,192,151,890,16061
+118,4,Immunology and Microbiology,208,225,1507,69295
+119,4,Materials Science,33,40,255,16224
+120,4,Mathematics,84,66,231,2600
+121,4,Medicine,3422,2721,21492,817065
+122,4,Neuroscience,386,327,1754,80306
+123,4,Nursing,85,77,521,18910
+124,4,"Pharmacology, Toxicology and Pharmaceutics",19,17,100,6201
+125,4,Physics and Astronomy,64,43,240,6531
+126,4,Psychology,283,240,1153,51943
+127,4,Social Sciences,473,389,975,32763
+128,4,Veterinary,5,2,14,340
+129,5,Agricultural and Biological Sciences,78,94,391,6908
+130,5,Arts and Humanities,153,147,205,620
+131,5,"Biochemistry, Genetics and Molecular Biology",1030,990,6663,168880
+132,5,"Business, Management and Accounting",73,48,205,4777
+133,5,Chemical Engineering,2,1,6,15
+134,5,Chemistry,68,124,396,9981
+135,5,Computer Science,159,89,929,22120
+136,5,Decision Sciences,59,37,263,1518
+137,5,Dentistry,8,10,37,938
+138,5,Earth and Planetary Sciences,5,10,48,975
+139,5,"Economics, Econometrics and Finance",189,129,609,7554
+140,5,Energy,8,15,40,940
+141,5,Engineering,139,143,904,17550
+142,5,Environmental Science,163,171,1026,30090
+143,5,Health Professions,327,290,1411,20703
+144,5,Immunology and Microbiology,330,323,2388,76436
+145,5,Materials Science,65,99,342,7410
+146,5,Mathematics,94,93,362,8864
+147,5,Medicine,5265,4588,34662,846679
+148,5,Neuroscience,493,507,3113,76965
+149,5,Nursing,120,123,682,18964
+150,5,"Pharmacology, Toxicology and Pharmaceutics",15,18,103,2422
+151,5,Physics and Astronomy,69,78,545,12787
+152,5,Psychology,338,338,1688,47621
+153,5,Social Sciences,695,601,1868,30676
+154,5,Veterinary,8,12,36,445
+155,6,Agricultural and Biological Sciences,117,80,613,4258
+156,6,Arts and Humanities,307,283,422,592
+157,6,"Biochemistry, Genetics and Molecular Biology",1698,1291,11278,75453
+158,6,"Business, Management and Accounting",125,90,372,1758
+159,6,Chemical Engineering,5,2,16,27
+160,6,Chemistry,109,102,545,3980
+161,6,Computer Science,447,169,1773,10132
+162,6,Decision Sciences,81,45,215,552
+163,6,Dentistry,11,14,48,564
+164,6,Earth and Planetary Sciences,12,10,113,309
+165,6,"Economics, Econometrics and Finance",266,175,1019,6521
+166,6,Energy,12,18,82,924
+167,6,Engineering,393,222,2051,10779
+168,6,Environmental Science,408,257,3205,31222
+169,6,Health Professions,658,440,3152,11992
+170,6,Immunology and Microbiology,459,384,3757,29889
+171,6,Materials Science,105,86,431,3246
+172,6,Mathematics,185,151,758,5827
+173,6,Medicine,8952,6254,62387,489615
+174,6,Neuroscience,1038,665,5835,38407
+175,6,Nursing,157,142,894,7387
+176,6,"Pharmacology, Toxicology and Pharmaceutics",37,26,150,1044
+177,6,Physics and Astronomy,194,115,973,5664
+178,6,Psychology,736,553,3782,24457
+179,6,Social Sciences,1262,982,4169,18224
+180,6,Veterinary,9,2,55,142
