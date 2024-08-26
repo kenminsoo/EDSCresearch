@@ -108,12 +108,12 @@ if page == "General Search":
         with search_inst:
             if st.checkbox("Select Institution"):
                 inst_select = st.selectbox("Select Inst.", uni_list)
-                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select).fillna(False)]
 
         with search_country:
             if st.checkbox("Select Country"):
                 country_select = st.selectbox("Select Country", country_list)
-                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select).fillna(False)]
 
         st.markdown("Summary Data")
         st.dataframe(domain_counts_summary[(domain_counts_summary["bin"] == selected_bin)])
@@ -132,12 +132,12 @@ if page == "General Search":
         with search_inst:
             if st.checkbox("Select Institution"):
                 inst_select = st.selectbox("Select Inst.", uni_list)
-                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select).fillna(False)]
 
         with search_country:
             if st.checkbox("Select Country"):
                 country_select = st.selectbox("Select Country", country_list)
-                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select).fillna(False)]
 
         if st.checkbox("Filter by Domain"):
             Domain = st.multiselect("Select Domain" ,filtered_data["domain_name"].unique(), default = filtered_data["domain_name"].unique())
@@ -161,12 +161,12 @@ if page == "General Search":
         with search_inst:
             if st.checkbox("Select Institution"):
                 inst_select = st.selectbox("Select Inst.", uni_list)
-                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select).fillna(False)]
 
         with search_country:
             if st.checkbox("Select Country"):
                 country_select = st.selectbox("Select Country", country_list)
-                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select).fillna(False)]
 
         if st.checkbox("Filter by Domain/Field"):
             Domain = filtered_data["domain_name"].unique()
@@ -197,7 +197,7 @@ if page == "General Search":
 
         search_entry = st.text_input("Input a Search Query (i.e. Machine Learning and Natural Language Processing, Financial Modeling)")
 
-        filtered_data = name_counts
+        filtered_data = name_counts[name_counts["bin"] == selected_bin]
 
         if search_entry != "":
 
@@ -229,17 +229,18 @@ if page == "General Search":
         with search_inst:
             if st.checkbox("Select Institution"):
                 inst_select = st.selectbox("Select Inst.", uni_list)
-                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Institution"].str.contains(inst_select).fillna(False)]
 
         with search_country:
             if st.checkbox("Select Country"):
                 country_select = st.selectbox("Select Country", country_list)
-                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select)]
+                filtered_data = filtered_data[filtered_data["Summary_Country"].str.contains(country_select).fillna(False)]
 
         if st.checkbox("Filter by Domain/Field/Subfield"):
             Domain = filtered_data["domain_name"].unique()
             Field = filtered_data["field_name"].unique()
             Subfield = filtered_data["subfield_name"].unique()
+            Name = filtered_data["name"].unique()
             if st.checkbox("Filter by Domain"):
                 Domain = st.multiselect("Select Domain" ,filtered_data["domain_name"].unique(), default = filtered_data["domain_name"].unique())
                 filtered_data = filtered_data[filtered_data["domain_name"].isin(Domain)]
@@ -249,6 +250,10 @@ if page == "General Search":
             if st.checkbox("Filter by Subfield"):
                 Subfield = st.multiselect("Select Subfield" ,filtered_data["subfield_name"].unique(), default = filtered_data["subfield_name"].unique())
                 filtered_data = filtered_data[filtered_data["subfield_name"].isin(Subfield)]
+            if st.checkbox("Filter by Name"):
+                Name = st.multiselect("Select Name" ,filtered_data["name"].unique(), default = filtered_data["name"].unique())
+                filtered_data = filtered_data[filtered_data["name"].isin(Name)]
+
             st.markdown("Summary Data")
             st.dataframe(name_counts_summary[(name_counts_summary["bin"] == selected_bin) & (name_counts_summary["domain_name"].isin(Domain)) & (name_counts_summary["field_name"].isin(Field)) & (name_counts_summary["subfield_name"].isin(Subfield))])
     
