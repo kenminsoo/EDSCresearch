@@ -76,7 +76,7 @@ st.title("Emory Research Explorer")
 page = st.sidebar.selectbox("Select a Page", ["General Search", "Interdisciplinary Research", "Research Networks"])
 
 if page == "General Search":
-    st.header("Page 1: General Searches")
+    st.markdown("## [Usage Guide](https://docs.google.com/document/d/1c33iCRT205YYxk73FKvHYiXZUT17k238qtKVBhKbnd4/edit?usp=sharing)")
 
     # Domain filter
     # select the level of granularity
